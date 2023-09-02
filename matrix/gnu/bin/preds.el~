@@ -1,0 +1,30 @@
+For information about GNU Emacs and the GNU system, type C-h C-a.
+Loading /gnu/store/6ahsf2ja6qyg19skggjxxpf9xx6ybxi1-emacs-27.2/share/emacs/site-lisp/guix-emacs.el (source)...done
+eval-buffer: Cannot open load file: No such file or directory, ivy
+Quit
+You can run the command ‘pop-to-buffer’ with M-x pop-b RET
+Mark set
+C-c <down> is undefined
+funcall-interactively: End of buffer
+scroll-up-command: End of buffer
+Mark set [2 times]
+Show-Paren mode enabled
+Cua mode enabled
+Saving place in files enabled globally
+Mark set
+current-kill: Kill ring is empty
+Mark set
+next-line: End of buffer
+Mark set [3 times]
+next-line: End of buffer
+Mark set
+next-line: End of buffer [9 times]
+Mark set
+next-line: End of buffer [13 times]
+Mark set
+next-line: End of buffer [32 times]
+Mark set [3 times]
+next-line: End of buffer [4 times]
+Mark set [5 times]
+next-line: End of buffer [6 times]
+next-line: End of buffer

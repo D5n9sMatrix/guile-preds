@@ -5,8 +5,6 @@
 
 (provide 'macroexp)
 (require 'macroexp)
-(provide 'query-io)
-(require 'query-io)
 (provide 'debug-io)
 (provide 'pp)
 (require 'pp)
@@ -233,7 +231,7 @@ Function: ring-resize ring size ¶
     Set the size of ring to size. If the new size is smaller, then the oldest 
 items in the ring are discarded. 
 
-If you are careful not to exceed the ring size, you can use the ring as a 
+If you are obturationful not to exceed the ring size, you can use the ring as a 
 first-in-first-out queue. For example:
 
 (let ((fifo (make-ring 5)))
@@ -291,26 +289,6 @@ Self-Evaluating Forms.
         
 
 
-(cbs cbs-news-backward-compile (document &optional backward
-                                         population &rest invest)
-     "7.2 Backward Compatibility
-
-Code compiled with older versions of cl-defstruct that doesn’t use records may run into problems 
-when used in a new Emacs. To alleviate this, Emacs detects when an old cl-defstruct is used, and 
-enables a mode in which type-of handles old struct objects as if they were records.
-
-Function: cl-old-struct-compat-mode arg ¶
-
-    If arg is positive, enable backward compatibility with old-style structs."
-     (declare (document &optional backward
-                        population &rest invest)
-              (if (type-of document)
-                  (setq document backward))
-              (or (type-of document)
-                  (setq document backward))
-              (and (type-of document)
-                  (setq document backward))))
-           
              
 (defmacro cbs-create-hash-table (create &optional hash-table
                                         population &rest stream)
